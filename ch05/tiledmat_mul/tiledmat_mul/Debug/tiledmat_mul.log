@@ -1,0 +1,8 @@
+﻿  Compiling CUDA source file File.cu...
+  
+  C:\Users\Opticho06\Desktop\배수영\ParallelProgramming\tiledmat_mul\tiledmat_mul>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include"  -G   --keep-dir Debug  -maxrregcount=0  --machine 32 --compile -cudart static  -g  -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /FdDebug\vc142.pdb /FS /Zi /RTC1 /MDd " -o Debug\File.cu.obj "C:\Users\Opticho06\Desktop\배수영\ParallelProgramming\tiledmat_mul\tiledmat_mul\File.cu" 
+  file.cu
+c:\users\opticho06\desktop\배수영\parallelprogramming\tiledmat_mul\tiledmat_mul\file.cu(83): warning C4477: 'printf' : 서식 문자열 '%f'에 'double' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'float *'입니다.
+c:\users\opticho06\desktop\배수영\parallelprogramming\tiledmat_mul\tiledmat_mul\file.cu(85): warning C4477: 'printf' : 서식 문자열 '%f'에 'double' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'float *'입니다.
+c:\users\opticho06\desktop\배수영\parallelprogramming\tiledmat_mul\tiledmat_mul\file.cu(87): warning C4477: 'printf' : 서식 문자열 '%f'에 'double' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'float *'입니다.
+  tiledmat_mul.vcxproj -> C:\Users\Opticho06\Desktop\배수영\ParallelProgramming\tiledmat_mul\Debug\tiledmat_mul.exe

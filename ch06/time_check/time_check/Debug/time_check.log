@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Opticho06\Desktop\Su0_0\ParallelProgramming\time_check\time_check\main.cpp(86,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'std::chrono::nanoseconds'입니다.
+  time_check.vcxproj -> C:\Users\Opticho06\Desktop\Su0_0\ParallelProgramming\time_check\Debug\time_check.exe

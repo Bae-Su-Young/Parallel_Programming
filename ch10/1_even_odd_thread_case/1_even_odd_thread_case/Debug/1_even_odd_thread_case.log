@@ -1,0 +1,14 @@
+﻿  Compiling CUDA source file File.cu...
+  
+  C:\Users\Opticho06\Desktop\Su0_0\ParallelProgramming\ch10\1_even_odd_thread_case\1_even_odd_thread_case>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include"  -G   --keep-dir Debug  -maxrregcount=0  --machine 32 --compile -cudart static  -g  -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /FdDebug\vc142.pdb /FS /Zi /RTC1 /MDd " -o Debug\File.cu.obj "C:\Users\Opticho06\Desktop\Su0_0\ParallelProgramming\ch10\1_even_odd_thread_case\1_even_odd_thread_case\File.cu" 
+c:\users\opticho06\desktop\su0_0\parallelprogramming\ch10\1_even_odd_thread_case\1_even_odd_thread_case\file.cu(31): warning : variable "tx" was declared but never referenced
+  
+c:\users\opticho06\desktop\su0_0\parallelprogramming\ch10\1_even_odd_thread_case\1_even_odd_thread_case\file.cu(42): warning : variable "tx" was declared but never referenced
+  
+c:\users\opticho06\desktop\su0_0\parallelprogramming\ch10\1_even_odd_thread_case\1_even_odd_thread_case\file.cu(63): warning : variable "i" was declared but never referenced
+  
+  file.cu
+c:\users\opticho06\desktop\su0_0\parallelprogramming\ch10\1_even_odd_thread_case\1_even_odd_thread_case\file.cu(97): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'std::chrono::nanoseconds'입니다.
+c:\users\opticho06\desktop\su0_0\parallelprogramming\ch10\1_even_odd_thread_case\1_even_odd_thread_case\file.cu(108): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'std::chrono::nanoseconds'입니다.
+c:\users\opticho06\desktop\su0_0\parallelprogramming\ch10\1_even_odd_thread_case\1_even_odd_thread_case\file.cu(63): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  1_even_odd_thread_case.vcxproj -> C:\Users\Opticho06\Desktop\Su0_0\ParallelProgramming\ch10\1_even_odd_thread_case\Debug\1_even_odd_thread_case.exe

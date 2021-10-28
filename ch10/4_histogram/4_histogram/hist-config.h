@@ -1,0 +1,6 @@
+#pragma once
+#define GRIDSIZE 1024
+#define BLOCKSIZE 1024
+#define TOTALSIZE (GRIDSIZE*BLOCKSIZE)
+
+#define NUMHIST 16 
